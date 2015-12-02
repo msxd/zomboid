@@ -3,10 +3,10 @@ module MADSITEM
 
 item MadBag
     {
-        WeightReduction =   100,
+        WeightReduction =   95,
         Weight  =   0.9,
         Type    =   Container,
-        Capacity    =   400,
+        Capacity    =   100,
         DisplayName =   Mad Bag,
         Icon    =   MadBag,
         CanBeEquipped = Back,
