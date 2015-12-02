@@ -1,0 +1,27 @@
+module MADSITEM
+{
+	recipe Make Mad Bag Frame
+    {
+    Sound:PZ_Hammer,
+    Category:Carpentry,
+    keep SutureNeedle,
+    Schoolbag=2,
+    Vest=2,
+    Thread=1,
+
+    Result:MadBagFrame,
+    Time:100.0
+    }
+
+    recipe Make Mad Bag Frame
+    {
+    keep SutureNeedle,
+    MadBagFrame=1,
+    Vest=2,
+    Thread=1,
+    Needle=1,
+
+    Result:MadBag,
+    Time:100.0
+    }
+}

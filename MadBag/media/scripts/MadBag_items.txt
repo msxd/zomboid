@@ -1,0 +1,26 @@
+module MADSITEM
+{
+
+item MadBag
+    {
+        WeightReduction =   100,
+        Weight  =   0.9,
+        Type    =   Container,
+        Capacity    =   400,
+        DisplayName =   Mad Bag,
+        Icon    =   MadBag,
+        CanBeEquipped = Back,
+        OpenSound   =   PZ_OpenBag,
+        CloseSound   =   PZ_CloseBag,
+        PutInSound   =   PZ_PutInBag,
+        Temperature = 10,
+    }
+
+item MadBagFrame
+    {
+        Weight = 0.4,
+        Type =  Normal,
+        DisplayName = Mad Bag Frame,
+        Icon = MB_Frame,   
+    }
+}
